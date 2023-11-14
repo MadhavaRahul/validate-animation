@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{background-color:hotpink;}
+p{color:red;}
+b{color:white;}
+h1{color:orange;}
+input:invalid {
+  animation: shake 0.8s;
+  border-color: red;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(30px);
+  }
+  40% {
+    transform: translateX(-100px);
+  }
+  60% {
+    transform: translateX(1000px);
+  }
+  80% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+marquee{
+margin-top:15px;}
+</style>
+</head>
+<body>
+  <marquee><h1>Welcome to my website</h1></marquee>
+  <p>This is a paragraph of text.</p>
+<form><center>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required><br>
+  <button type="submit">Submit</button>
+</form></center>
+<marquee behavior="slide" direction="right">Author is MMR-9.THIS MY 1$+ Css code</marquee>
+</body>
+</html>
